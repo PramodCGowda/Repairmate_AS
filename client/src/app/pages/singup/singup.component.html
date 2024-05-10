@@ -1,0 +1,13 @@
+<div class="parent">
+<div class="login-page">
+    <div class="form">
+      <form class="login-form">
+        <input type="text" [(ngModel)]="singupObj.username" name="name" placeholder="name"/>
+        <input type="password" [(ngModel)]="singupObj.password" name="password" placeholder="password"/>
+        <input type="email" [(ngModel)]="singupObj.email" name="email" placeholder="email address"/>
+        <button (click)="onCreate()">create</button>
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+      </form>
+    </div>
+  </div>
+</div>
